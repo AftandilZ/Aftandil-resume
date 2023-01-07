@@ -128,7 +128,7 @@ a {
 }
 .info-bloks_text {
   width: 90%;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
 }
 /* ------------------------------------------ */
@@ -149,15 +149,11 @@ a {
 
 #contacts-title {
   margin-top: 2%;
-  margin-bottom: 0;
+  margin-bottom: 10%;
 }
 .contacts-blocks {
   font-size: 12px;
   font-weight: 100;
-  display: flex;
-  margin: 0;
-  justify-content: space-between;
-  align-items: center;
 }
 .contacts_left-side {
   width: 30%;
