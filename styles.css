@@ -154,6 +154,7 @@ a {
 .contacts-blocks {
   font-size: 12px;
   font-weight: 100;
+  text-align: center;
 }
 .contacts_left-side {
   width: 30%;
