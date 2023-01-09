@@ -81,8 +81,8 @@
     margin-top: 20%;
   }
   .portfolio-photo {
-    width: 40vh;
-    height: 40vh;
+    width: 40%;
+    height: 40%;
     margin-top: 10%;
   }
   header {
@@ -92,6 +92,9 @@
     width: 90%;
     text-align: center;
   }
+  nav {
+    width: 40%;
+  }
   .navbar__navigation {
     margin-bottom: 15%;
   }
@@ -99,7 +102,7 @@
     background-color: white;
     color: rgb(3, 142, 133);
     font-size: 12px;
-    margin-top: 2%;
+    margin: 2% 0;
     justify-content: center;
   }
   .info-bloks {
@@ -170,10 +173,17 @@
 }
 @media all and (max-width: 320px) {
   .portfolio-photo {
-    width: 35vh;
-    height: 35vh;
+    width: 60%;
+    height: 60%;
+    border: solid 5px rgb(255, 255, 255);
   }
   .header__title-name {
     font-size: 55px;
+  }
+  .nav_navigation {
+    margin-top: 5%;
+  }
+  nav {
+    width: 55%;
   }
 }
